@@ -9,7 +9,7 @@ Necessary Arguments:<br>
 `model`: Model description in `lavaan` terminology.<br>
 `input`: Character vector of partitioning variables. Note that every partitioning variable must either be defineds as `vector` (if it should be treted as categorical) or `numeric`. <br>
 
-Optional Arguments:
+Optional Arguments:<br>
 `ordered`: Character vector of ordinal observed variables of the model. Default = `NULL.`<br>
 `ntrees`: Number of trees to be computed. Default = `100`<br>
 `split`: Number of partitioning variales to be selected for random split selection at every split point within a tree (`mtry` argument in `ctree` function). Default = `2`.<br>
